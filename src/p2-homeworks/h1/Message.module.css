@@ -1,0 +1,29 @@
+.message {
+    width: 500px;
+    display: flex;
+    background: lightgreen;
+}
+
+.image {
+    width: 150px;
+    border-radius: 100%;
+
+}
+
+.text {
+    background: black;
+    width: 90%;
+    margin: 2%;
+    border-radius: 20px 20px 20px 5px;
+    padding: 20px;
+    color: white;
+}
+
+.name {
+    color: blueviolet;
+}
+
+.time {
+    color: green;
+    float: right
+}
