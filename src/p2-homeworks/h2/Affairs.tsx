@@ -5,7 +5,6 @@ import {AffairType, FilterType} from './HW2'
 type AffairsPropsType = { // need to fix any
     data: Array<AffairType>
     setFilter: Dispatch<SetStateAction<FilterType>>
-
     deleteAffairCallback: (id: number) => void
     filter: FilterType
 }
@@ -37,7 +36,7 @@ function Affairs(props: AffairsPropsType) {
 
             {mappedAffairs}
 
-            <button onClick={setAll}>All111111111111111111111</button>
+            <button onClick={setAll}>All</button>
             <button onClick={setHigh}>High</button>
             <button onClick={setMiddle}>Middle</button>
             <button onClick={setLow}>Low</button>
