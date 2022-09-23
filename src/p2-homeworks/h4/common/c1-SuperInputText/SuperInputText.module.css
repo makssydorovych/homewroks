@@ -1,12 +1,26 @@
 .superInput {
-
+    border: 2px solid #3626a7;
+    background: rgba(54, 38, 167, 0.52);
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
 }
 
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+
+    border: 2px solid #3626a7;
+    background: rgba(253, 3, 3, 0.53);
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
 }
 
 .error {
     color: red;
+}
+.superInput, .errorInput:focus {
+    outline: none;
+
 }

@@ -1,7 +1,31 @@
 .default {
-
+    border: 2px solid #3626a7;
+    background: rgba(54, 38, 167, 0.52);
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    margin: 5px;
+    padding: 2px;
 }
 
 .red {
-    background: red;
+    border: 2px solid #3626a7;
+    background: rgba(253, 3, 3, 0.53);
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    margin: 5px;
+    padding: 5px;
+}
+.default:hover, .red:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 8px 20px 0 rgba(0,0,0,0.19);
+}
+.default:disabled{
+    opacity: 0.5;
+}
+.default:disabled:hover{
+    box-shadow: none;
 }
